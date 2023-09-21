@@ -1,0 +1,21 @@
+{
+    "todo": "TO DO",
+    "doing": "DOING",
+    "done": "DONE",
+    "search": "Search",
+    "select": "Select...",
+    "all": "all",
+    "super easy": "super easy",
+    "easy": "easy",
+    "normal": "normal",
+    "hard": "hard",
+    "super hard": "super hard",
+    "additem": "Add Item",
+    "draghandle": "Move",
+    "remove": "Remove",
+    "tasktitle": "Task Title",
+    "taskdesc": "Task description"
+
+   
+
+}
