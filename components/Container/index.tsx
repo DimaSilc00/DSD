@@ -3,7 +3,7 @@ import ContainerProps from './container.type';
 import { useSortable } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import clsx from 'clsx';
-import { Button } from '../Button';
+
 import { SortableContext } from '@dnd-kit/sortable';
 import Items from '../Item';
 import Input from '../Input';
@@ -94,9 +94,9 @@ const Container = ({
                   </SortableContext>
 
 
-      <Button variant="ghost" onClick={onAddItem}>
+      <button className="hover:opacity-80" onClick={onAddItem}>
         {t("additem")}
-      </Button>
+      </button>
     </div>
   );
 };

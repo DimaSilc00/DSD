@@ -30,7 +30,7 @@ import Container from '@/components/Container';
 import Items from '@/components/Item';
 import Modal from '@/components/Modal';
 import Input from '@/components/Input';
-import { Button } from '@/components/Button';
+
 import Select from 'react-select'
 import { json } from 'stream/consumers';
 
@@ -438,7 +438,7 @@ console.log('asds' , containers)
           
           
 
-          <Button onClick={onAddItem}>{t("additem")}</Button>
+          <button className=" hover:opacity-80 text-center w-full" onClick={onAddItem}>{t("additem")}</button>
         </div>
       </Modal>
       <header className="flex items-center justify-between gap-y-2 bg-black">
